@@ -17,6 +17,8 @@ public class MediasAlunos {
 		System.out.println("suas notas são:");
 		System.out.println(notaAluno1.nota1+", "+ notaAluno1.nota2+", "+ notaAluno1.nota3+", "+ notaAluno1.nota4 );
 		System.out.printf("sua média final é: %.2f", notaAluno1.media());
+		System.out.println();
+		System.out.println(notaAluno1.obs());
 		
 		System.out.println();
 		
@@ -24,6 +26,8 @@ public class MediasAlunos {
 		System.out.println("suas notas são:");
 		System.out.println(notaAluno2.nota1+", "+ notaAluno2.nota2+", "+ notaAluno2.nota3+", "+ notaAluno2.nota4 );
 		System.out.printf("sua média final é: %.2f", notaAluno2.media());
+		System.out.println();
+		System.out.println(notaAluno2.obs());
 		
 	}
 	
